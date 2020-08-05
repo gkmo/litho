@@ -83,7 +83,7 @@ public ServiceSectionSpec {
       ServiceSection.updateData(c, data);
   }
 
-  @UpdateState
+  @OnUpdateState
   static void updateData(
     final StateValue<Data> connectionData,
     @Param Data data) {
